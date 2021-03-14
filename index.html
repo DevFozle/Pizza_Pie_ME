@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body style="overflow-x: hidden;">
   <!-- *===========Navber Start==========* -->
   <section id="navber">
     <nav class="navbar navbar-expand-lg">
@@ -23,7 +25,7 @@
             <img src="images/logo.png" alt="logo" class="w-100 img-fluid">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -64,7 +66,7 @@
               </li>
             </ul>
             <div class="order">
-              <span>Cart <a href="#"><i class="fa fa-shopping-cart"></i></a></span>
+              <span><a href="#">Cart <i class="fa fa-shopping-cart"></i></a></span>
             </div>
           </div>
         </div>
@@ -85,16 +87,16 @@
                     <div class="row d-flex align-items-center h-100">
                         <div class="col-lg text-center">
                           <div class="tumb-logo">
-                            <i class="fa fa-cutlery" aria-hidden="true"></i>
-                            <div class="line1"></div>
-                            <div class="line2"></div>
+                            <i class="fa fa-cutlery wow fadeInUp" aria-hidden="true"></i>
+                            <div class="line1 wow fadeInLeft"></div>
+                            <div class="line2 wow fadeInRight"></div>
                           </div>
-                          <h1>PiZZA</h1>
-                          <h1>PiE ME</h1>
-                          <h2>Make Your Own Pizza</h2>
+                          <h1 class="wow fadeInDown">PiZZA</h1>
+                          <h1 class="wow fadeInUp">PiE ME</h1>
+                          <h2 class="wow fadeInUp">Make Your Own Pizza</h2>
                           <div class="btn">
-                            <a href="#">Order Now</a>
-                            <a href="#">Land More</a>
+                            <a href="#" class="wow fadeInLeft">Order Now</a>
+                            <a href="#" class="wow fadeInRight">Land More</a>
                           </div>
                         </div>
                     </div>
@@ -161,38 +163,41 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="about-Heading text-center">
-          <h1>About Our Pizza Pie Me</h1>
+          <h1 class="wow fadeInUp">About Our Pizza Pie Me</h1>
           <div class="head-line text-center d-flex justify-content-center">
-            <i class="fa fa-cutlery"></i>
-            <div class="Aline1"></div>
-            <div class="Aline2"></div>
+            <i class="fa fa-cutlery wow fadeInUp"></i>
+            <div class="Aline1 wow fadeInUp"></div>
+            <div class="Aline2 wow fadeInUp"></div>
           </div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
+          <p class="wow fadeInUp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6">
         <div class="about-info1">
-          <img src="images/chef.jpg" alt="chef" class="w-100 img-fluid">
+          <img src="images/chef.jpg" alt="chef" class="w-100 img-fluid wow fadeIn">
+          <a class="venobox wow flash" data-wow-iteration="infinite" data-wow-duration="2s" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=9o1jmMaWsr8">
+            <i class="fa fa-play"></i>
+          </a>
         </div>
       </div>
       <div class="col-lg-6">
         <div class="about-info2 d-flex">
-          <img src="images/P-icon.png" alt="P-icon" class="img-fluid">
+          <img src="images/P-icon.png" alt="P-icon" class="img-fluid wow fadeInUp">
           <div class="inner-text">
-            <h3>Pizza Pie Me</h3>
-            <h4>We Love to make Pizza.</h4>
+            <h3 class=" wow fadeInUp">Pizza Pie Me</h3>
+            <h4 class=" wow fadeInUp">We Love to make Pizza.</h4>
           </div>
         </div>
-        <div class="down-text">
+        <div class="down-text wow fadeInUp">
           <p>Pizza Pie Me is a family owned and operated business.
             We endeavour to bring to Dhaka the type of pizza you get on any street corner in Rome.
             Roman pizza has a thin, crisp crust and is bursting with flavor. It is cooked for just a few minutes in a very, very hot oven.
             We work with importers and leading suppliers of produce to ensure that our customers get the best pizza in town.
             While we are a classic pizzeria catering to the Italian community, we also serve a wide range of tastes, both international and domestic.
             All our pizzas are 100% Halal and (in our humble opinion) delicious!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <p>Consequuntur soluta, temporibus sint nulla praesentium doloremque at est facilis natus! Laborum earum excepturi dolor eius numquam non hic aliquam? Eos repellat molestias officiis reprehenderit doloribus, fugiat sint a rerum voluptas quisquam, quam recusandae et? Optio eligendi doloremque iure rem corporis atque itaque ducimus est perferendis repellendus quae eum illum, deleniti tempore consequuntur a cumque cum aliquam voluptas veniam! Nesciunt et recusandae optio saepe quia reprehenderit eum ad pariatur soluta cum obcaecati suscipit dolor eius deserunt alias voluptatibus eaque distinctio inventore aliquam, ullam architecto dicta dignissimos amet minus. Quas deleniti quis quam.</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <p class="hide-p">Consequuntur soluta, temporibus sint nulla praesentium doloremque at est facilis natus! Laborum earum excepturi dolor eius numquam non hic aliquam? Eos repellat molestias officiis reprehenderit doloribus, fugiat sint a rerum voluptas quisquam, quam recusandae et? Optio eligendi doloremque iure rem corporis atque itaque ducimus est perferendis repellendus quae eum illum, deleniti tempore consequuntur a cumque cum aliquam voluptas veniam! Nesciunt et recusandae optio saepe quia reprehenderit eum ad pariatur soluta cum obcaecati suscipit dolor eius deserunt alias voluptatibus eaque distinctio inventore aliquam, ullam architecto dicta dignissimos amet minus. Quas deleniti quis quam.</p>
           </p>
         </div>
       </div>
@@ -207,46 +212,46 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="about-Heading text-center">
-            <h1>Our Special Delivery Service</h1>
+            <h1 class=" wow fadeInUp">Our Special Delivery Service</h1>
             <div class="head-line text-center d-flex justify-content-center">
-              <i class="fa fa-cutlery"></i>
-              <div class="Aline1"></div>
-              <div class="Aline2"></div>
+              <i class="fa fa-cutlery wow fadeInUp"></i>
+              <div class="Aline1 wow fadeInUp"></div>
+              <div class="Aline2 wow fadeInUp"></div>
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
+            <p class=" wow fadeInUp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 text-center">
           <div class="D-item d-flex justify-content-center">
-            <div class="service-icon d-flex justify-content-center align-items-center">
+            <div class="service-icon d-flex justify-content-center align-items-center wow fadeInUp">
               <i class="fa fa-file-text-o"></i>
             </div>
           </div>
-          <div class="inner-texts">
+          <div class="inner-texts wow fadeInUp">
             <h2>1. Select Your Food</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem unde nesciunt, sunt numquam iste?</p>
           </div>
         </div>
         <div class="col-lg-4 text-center">
           <div class="D-item d-flex justify-content-center">
-            <div class="service-icon d-flex justify-content-center align-items-center">
+            <div class="service-icon d-flex justify-content-center align-items-center wow fadeInUp">
               <i class="fa fa-credit-card"></i>
             </div>
           </div>
-          <div class="inner-texts">
+          <div class="inner-texts wow fadeInUp">
             <h2>2. Pay With Card or Cash</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem unde nesciunt, sunt numquam iste?</p>
           </div>
         </div>
         <div class="col-lg-4 text-center">
           <div class="D-item d-flex justify-content-center">
-            <div class="service-icon d-flex justify-content-center align-items-center">
+            <div class="service-icon d-flex justify-content-center align-items-center wow fadeInUp">
               <i class="fa fa-archive"></i>
             </div>
           </div>
-          <div class="inner-texts">
+          <div class="inner-texts wow fadeInUp">
             <h2>3. Pickup or Delivery</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolorem unde nesciunt, sunt numquam iste?</p>
           </div>
@@ -263,7 +268,7 @@
     <div class="container">
     <div class="row">
         <div class="col-lg-12">
-          <div class="about-Heading text-center">
+          <div class="about-Heading text-center wow fadeInUp">
             <h1>Our Special Pizza Menu</h1>
             <div class="head-line text-center d-flex justify-content-center">
               <i class="fa fa-cutlery"></i>
@@ -275,7 +280,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="main-slider">
+        <div class="main-slider wow fadeInUp">
         <div class="col-lg-3 d-flex justify-content-center">
           <div class="pizza-item text-center">
             <img src="images/Quattro-Formaggi.png" alt="Quattro" class="img-fluid m-auto">
@@ -364,7 +369,7 @@
   <!-- *===========counterup Start==========* -->
   <section id="counter-main">
     <div class="vincent_bottom_corners"></div>
-    <div class="container">
+    <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-lg">
                 <div class="counter-item text-center">
@@ -402,28 +407,354 @@
   <!-- *===========counterup End===========* -->
   <!-- *===========Team Start==========* -->
   <section id="team">
-    <div class="container">
+    <div class="vincent_bottom_corners"></div>
+    <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-lg-12">
-
+          <div class="about-Heading text-center">
+            <h1>Our professional kitchen chef</h1>
+            <div class="head-line text-center d-flex justify-content-center">
+              <i class="fa fa-cutlery"></i>
+              <div class="Aline1"></div>
+              <div class="Aline2"></div>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="main-slider1">
+            <div class="team-item1">
+              <img src="images/chef1.png" alt="chef1" class="img-fluid">
+            </div>
+            <div class="team-item1">
+              <img src="images/chef2.png" alt="chef1" class="img-fluid">
+            </div>
+            <div class="team-item1">
+              <img src="images/chef3.png" alt="chef1" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-start">
+          <div class="main-slider2">
+            <div class="team-item2 m-auto">
+              <h1>Jamie Oliver</h1>
+              <div class="star-rating d-flex">
+                <h6>Rating:</h6>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+              </div>
+              <p>By all accounts, this particular individual has done quite well for himself in the world of all things culinary. While he doesn’t have the celebrity status of some of the other chefs that also appear on this list, he is certainly on his way to achieving that type of status. More importantly, he strives for excellence in everything he does when it comes to creating new dishes, as well as making those signature dishes that he is already well known for.</p><p> This alone will help propel him into a household name, largely thanks to the outstanding quality of everything he turns out. There is no doubt that if he keeps at it long enough, he too will be a household name just like many of the chefs that appear closer to the bottom of this list. After all, he already has quality going for him. He’s also driven to constantly improve and get his name out there as much as possible. As long as he keeps doing what he’s doing, he really can’t miss.</p>
+            </div>
+            <div class="team-item2 m-auto">
+              <h1>Anne Burrell</h1>
+              <div class="star-rating d-flex">
+                <h6>Rating:</h6>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star-half"></i></a>
+              </div>
+              <p>It seems like cooking shows are all the rage these days. For years, the only place that you would find any type of cooking shows was on place like the Food Network. In today’s world, cooking competitions make it to primetime television on local networks. As such, Anne Burrell has shown up on some of these television shows, acting as a judge for those who are brave enough to compete.</p><p> Competitors are often surprised by her demeanor, as this approachable looking woman with a warm smile can be very exacting when it comes to creating a dish and doing it the right way. However, almost everyone would probably admit that if they follow her advice, they are capable of becoming a better cook because of it. She knows how things should be done and she’s not afraid to tell people that they need to do something differently. In fact, that is exactly what has made her so popular.</p>
+            </div>
+            <div class="team-item2 m-auto">
+              <h1>Rocco Dispirito</h1>
+              <div class="star-rating d-flex">
+                <h6>Rating:</h6>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+                <a href="#"><i class="fa fa-star"></i></a>
+              </div>
+              <p>This individual has been in the restaurant business for a good chunk of his adult life. With that being said, he rose to fame when he decided to chronicle opening a restaurant in the extremely competitive area of New York City with a reality television show. The idea was to show the audience everything from beginning to end so they would better understand exactly what is involved in opening a successful restaurant. However, the restaurant didn’t turn out to be a success.</p><p> In fact, it turned out to be a dismal failure and all of it was documented on television for the whole world to see. Things got even worse when the business partner that he had entered into this endeavor with ended up suing him. He ended up in the tabloids for what seemed like months and many people thought that his career as a chef would be over as a result of everything that happened. Despite all of this, he proved the naysayers wrong and came back better than ever.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- *===========Team End===========* -->
-  <!-- *===========Navber Start==========* -->
-  <!-- *===========Navber End===========* -->
-  <!-- *===========Navber Start==========* -->
-  <!-- *===========Navber End===========* -->
-  <!-- *===========Navber Start==========* -->
-  <!-- *===========Navber End===========* -->
-  <!-- *===========Navber Start==========* -->
-  <!-- *===========Navber End===========* -->
+  <!-- *===========Gallery Start==========* -->
+  <section id="gallery">
+    <div class="vincent_bottom_corners"></div>
+    <div class="vincent_bottom_corners2"></div>
+    <div class="overlay">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="about-Heading text-center">
+            <h1>Our Instagram Post</h1>
+            <div class="head-line text-center d-flex justify-content-center">
+              <i class="fa fa-cutlery"></i>
+              <div class="Aline1"></div>
+              <div class="Aline2"></div>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="insta-photo">
+            <div class="inner-img-gal">
+              <img src="images/i1.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i1.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="inner-img-gal top-p">
+              <img src="images/i2.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i2.jpg">
+                  <i class="fa fa-plus"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="insta-photo">
+            <div class="inner-img-gal">
+              <img src="images/i4.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i4.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="inner-img-gal top-p">
+              <img src="images/i3.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i3.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="insta-photo">
+            <div class="inner-img-gal">
+              <img src="images/i5.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i5.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="inner-img-gal top-p">
+              <img src="images/i6.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i6.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="insta-photo">
+            <div class="inner-img-gal">
+              <img src="images/i8.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i8.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+            <div class="inner-img-gal top-p">
+              <img src="images/i7.jpg" alt="i1" class="w-100 img-fluid">
+              <div class="gal-img-over d-flex justify-content-center align-items-center">
+                <a class="venobox" data-gall="gallery01" href="images/i7.jpg">
+                <i class="fa fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- *===========Gallery End===========* -->
+  <!-- *===========Pertnership Start==========* -->
+  <section id="brands">
+    <div class="vincent_bottom_corners"></div>
+    <div class="container wow fadeInUp-xl">
+      <div class="row">
+        <div class="col-lg-1 col-2 d-flex justify-content-start align-items-center">
+          <div class="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8.499" height="14.993" viewBox="0 0 8.499 14.993">
+              <path id="arrow"
+                d="M384.293,5611.754l6.411,6.447a1.04,1.04,0,0,0,1.476,0,1.055,1.055,0,0,0,0-1.485l-5.672-5.7,5.672-5.7a1.055,1.055,0,0,0,0-1.485,1.04,1.04,0,0,0-1.476,0l-6.411,6.447a1.055,1.055,0,0,0,0,1.485Z"
+                transform="translate(-383.987 -5603.516)" fill="#fff" />
+            </svg>
+          </div>
+        </div>
+        <div class="col-lg-10 col-8">
+          <div class="brands-slider-main">
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand1.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand2.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand3.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand4.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand1.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand2.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand3.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="images/brand4.png" alt="brands-logo" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-2 d-flex justify-content-end align-items-center">
+          <div class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="8.499" height="14.993" viewBox="0 0 8.499 14.993">
+              <path id="arrow"
+                d="M1534.707,5611.754l-6.411,6.447a1.04,1.04,0,0,1-1.476,0,1.055,1.055,0,0,1,0-1.485l5.672-5.7-5.672-5.7a1.055,1.055,0,0,1,0-1.485,1.04,1.04,0,0,1,1.476,0l6.411,6.447a1.055,1.055,0,0,1,0,1.485Z"
+                transform="translate(-1526.514 -5603.516)" fill="#fff" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *===========Pertnership End===========* -->
+  <!-- *===========message Start==========* -->
+  <section id="message">
+    <div class="vincent_bottom_corners"></div>
+    <div class="overlay">
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="about-Heading text-center">
+              <h1>Send Your Message To Us</h1>
+              <div class="head-line text-center d-flex justify-content-center">
+                <i class="fa fa-cutlery"></i>
+                <div class="Aline1"></div>
+                <div class="Aline2"></div>
+              </div>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, ullam fuga accusantium magni quidem iste eligendi, debitis, neque dolorem dignissimos saepe nulla fugit sint. Vitae perferendis harum cupiditate quisquam impedit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 m-auto text-center">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" placeholder="name@example.com" id="email">
+              <div class="err-msg" id="email_error_msg"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="err-msg" id="email_error_msg"></div>
+            </div>
+            <button type="submit" class="btn" onclick="return sub()">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *===========message End===========* -->
+  <!-- *===========footer Start==========* -->
+  <footer id="footer">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-lg-4 me-auto">
+          <div class="sec-1">
+            <img src="images/logo.png" alt="logo" class="img-fluid">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illum impedit rem? Quaerat, quod labore!</p>
+            <div class="sec-info">
+            <i class="fa fa-envelope"><a href="mailto:fozle0it@gmail.com">fozle0it@gmail.com</a></i>
+            <i class="fa fa-phone"><a href="tel:+880 173-892-9889">+880-173-892-9889</a></i>
+            <i class="fa fa-map-marker"><a href="#">Narayanganj Sadar 1400,Dhaka</a></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 me-auto">
+          <div class="sec-2">
+            <h2>Recent Posts</h2>
+            <div class="footer-item d-flex flex-column">
+            <a href="#">Chicken Tinga Nachos</a>
+            <a href="#">Sweet and Sour Pork Chops</a>
+            <a href="#">Green Chile And Chicken Stew</a>
+            <a href="#">Pecan Pie Macarons</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 me-auto">
+          <div class="sec-1">
+            <h2>Location Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71397.73564618817!2d90.48842472313234!3d23.68970557976541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b6ea00863299%3A0x8b14f3e1e4dbeb96!2sSiddirganj!5e1!3m2!1sen!2sbd!4v1615619989609!5m2!1sen!2sbd" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="line-up"></div>
+        <div class="col-lg-12">
+          <div class="copyright d-flex justify-content-between">
+            <p>Copyrights &copy; By Owner</p>
+          <div class="social-icon">
+            <span>Follow Us: </span>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="www.tripadvisor.com"><i class="fa fa-tripadvisor"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- *===========Navber Start===========* -->
+<div class="back-to-top">
+  <img src="images/back-to-top.png" alt="back-to-top">
+</div>
+<!-- *===========Navber End===========* -->
+  <!-- *===========footer End===========* -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/moment.min.js"></script>
-    <script src="js/pb.calendar.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/venobox.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/script.js"></script>

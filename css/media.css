@@ -1,0 +1,258 @@
+@media(max-width:420.98px){
+    #navber {
+        background-color: #332925;
+    }
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+    .navbar-toggler {
+        color: #fff;
+        font-size: 28px;
+    }
+    #navber .navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+    #navber .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: initial;
+    }
+    #navber .navbar-expand-lg .navbar-nav .nav-link {
+        background: #42352d;
+        border-radius: 10px;
+        text-align: center;
+    }
+    #navber .navbar-brand {
+        width: 75px;
+    }
+    #navber .order {
+        padding-left: 0;
+    }
+    #navber .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    #navber .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #f2cc00;
+    }
+    #navber .navbar-expand-lg .navbar-nav .dropdown-menu {
+        width: 100%;
+    }
+    #banner .right{
+        opacity: 0;
+    }
+    #banner .left{
+        opacity: 0;
+    }
+    #banner .tumb-logo {
+        margin-top: 45px;
+    }
+    #banner .tumb-logo .line1 {
+        left: 25%;
+        width: 60px;
+    }
+    #banner .tumb-logo .line2 {
+        right: 25%;
+        width: 60px;
+    }
+    #banner .tumb-logo i {
+        font-size: 20px;
+    }
+    #banner h1 {
+        font-size: 25px;
+    }
+    #banner h2 {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    #banner a {
+        font-size: 12px;
+        padding: 3px 11px;
+        margin-right: 3px;
+    }
+    /* *Heading-part Start* */
+    #about .about-Heading h1 {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    #about .about-Heading .head-line .Aline1 {
+        width: 110px;
+        left: 54%;
+    }
+    #about .about-Heading .head-line .Aline2 {
+        width: 110px;
+        right: 54%;
+    }
+    #about .about-Heading p {
+        font-size: 14px;
+        padding: 0 0;
+        padding-top: 5px;
+    }
+    #service .about-Heading h1 {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    #service .about-Heading .head-line .Aline1 {
+        width: 110px;
+        left: 54%;
+    }
+    #service .about-Heading .head-line .Aline2 {
+        width: 110px;
+        right: 54%;
+    }
+    #service .about-Heading p {
+        font-size: 14px;
+        padding: 0 0;
+        padding-top: 5px;
+    }
+    #menu .about-Heading h1 {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    #menu .about-Heading .head-line .Aline1 {
+        width: 110px;
+        left: 54%;
+    }
+    #menu .about-Heading .head-line .Aline2 {
+        width: 110px;
+        right: 54%;
+    }
+    #menu .about-Heading p {
+        font-size: 14px;
+        padding: 0 0;
+        padding-top: 5px;
+    }
+    #team .about-Heading h1 {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    #team .about-Heading .head-line .Aline1 {
+        width: 110px;
+        left: 54%;
+    }
+    #team .about-Heading .head-line .Aline2 {
+        width: 110px;
+        right: 54%;
+    }
+    #team .about-Heading p {
+        font-size: 14px;
+        padding: 0 0;
+        padding-top: 5px;
+    }
+    #gallery .about-Heading h1 {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    #gallery .about-Heading .head-line .Aline1 {
+        width: 110px;
+        left: 54%;
+    }
+    #gallery .about-Heading .head-line .Aline2 {
+        width: 110px;
+        right: 54%;
+    }
+    #gallery .about-Heading p {
+        font-size: 14px;
+        padding: 0 0;
+        padding-top: 5px;
+    }
+    #message .about-Heading h1 {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    #message .about-Heading .head-line .Aline1 {
+        width: 110px;
+        left: 54%;
+    }
+    #message .about-Heading .head-line .Aline2 {
+        width: 110px;
+        right: 54%;
+    }
+    #message .about-Heading p {
+        font-size: 14px;
+        padding: 0 0;
+        padding-top: 5px;
+    }
+    /* *Heading-part End* */
+    #about .about-info1, .about-info2 {
+        padding-top: 15px;
+    }
+    #about .about-info2 img {
+        width: 78px;
+    }
+    #about .inner-text {
+        padding-top: 25px;
+        padding-left: 5px;
+    }
+    #about .down-text p {
+        font-size: 14px;
+    }
+    #about .hide-p {
+        display: none;
+    }
+    #about {
+        padding-bottom: 0;
+    }
+    #service .service-icon {
+        margin-top: 0px;
+    }
+    #service {
+        padding-bottom: 10px;
+    }
+    #menu .Pright {
+        opacity: 0;
+    }
+    #menu .Pleft {
+        opacity: 0;
+    }
+    #menu .main-slider {
+        padding-top: 10px;
+    }
+    #menu {
+        padding-bottom: 40px;
+    }
+    #counter-main .counter-item h5 {
+        padding-bottom: 35px;
+    }
+    #counter-main {
+        padding-bottom: 15px;
+    }
+    #team .team-item2 {
+        padding: 0 0;
+        padding-top: 0px;
+    }
+    #gallery .top-p {
+        margin-top: 0;
+    }
+    #brands .next, #brands .prev {
+        height: 30px;
+    }
+    #brands .next:hover, #brands .prev:hover {
+        height: 30px;
+    }
+    #message .form-label {
+        margin-left: 0;
+    }
+    #message .form-control {
+        width: 100%;
+    }
+    #footer .sec-2 h2 {
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    #footer .sec-1 h2 {
+        padding-top: 25px;
+    }
+    .back-to-top-animation {
+        bottom: 50px !important;
+    }
+    .back-to-top {
+        right: 25px;
+    }
+    .sec-1 iframe{
+        width: 100%;
+    }
+    #footer .copyright {
+        font-size: 12px;
+    }
+    #footer .copyright .social-icon i {
+        padding: 0 3px;
+    }
+}
