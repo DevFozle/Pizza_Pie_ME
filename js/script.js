@@ -154,6 +154,11 @@ $(function(){
     ]
   });
 
+  // Preloader
+  $(window).on('load', function () {
+    $('.preloader').delay(1000).fadeOut(500);
+  });
+
   //Back to top button initialization
   $('.back-to-top').click(function(){
     $('html,body').animate({scrollTop: 0},1000);
