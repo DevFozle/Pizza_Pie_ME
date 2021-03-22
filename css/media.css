@@ -190,6 +190,9 @@
     #about .hide-p {
         display: none;
     }
+    #about button {
+        margin-bottom: 40px;
+    }
     #about {
         padding-bottom: 0;
     }
@@ -453,6 +456,9 @@
     }
     #about .hide-p {
         display: none;
+    }
+    #about button {
+        margin-bottom: 40px;
     }
     #about {
         padding-bottom: 0;
@@ -733,6 +739,9 @@
     #about .hide-p {
         display: none;
     }
+    #about button {
+        margin-bottom: 40px;
+    }
     #about {
         padding-bottom: 0;
     }
@@ -954,7 +963,11 @@
         font-size: 15px;
         padding: 0 0;
         padding-top: 5px;
-    }  #gallery .about-Heading .head-line .Aline1 {
+    }  
+    #team .team-item1 img {
+        margin-top: 105px;
+    }
+    #gallery .about-Heading .head-line .Aline1 {
         width: 110px;
         left: 54%;
     }
@@ -992,6 +1005,9 @@
     }
     #about .hide-p {
         display: none;
+    }
+    #about button {
+        margin-bottom: 40px;
     }
     #about {
         padding-bottom: 0;

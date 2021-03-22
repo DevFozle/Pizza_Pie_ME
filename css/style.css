@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #fff;
-    z-index: 9999999999999999;
+    z-index: 99999999;
     display: flex;
     justify-content: center;
   }
@@ -459,6 +459,29 @@ body {
     color: #777;
     padding-top: 20px;
 }
+#about button {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #121618;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#about button:hover {
+    background: #fff;
+    color: #000;
+}
 /* *===========About End===========* */
 /* *===========Service Start===========* */
 #service {
@@ -653,7 +676,7 @@ body {
     -o-transform: translateY(-50%);
 }
 #menu .pizza-item {
-	height: 371px;
+	height: 400px;
 }
 #menu .pizza-item img {
     width: 200px;
@@ -679,14 +702,6 @@ body {
 }
 #menu .pizza-item:hover .pizza-head-line {
     width: 250px;
-}
-#menu .pizza-item p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-    font-weight: 400;
-	color: #121618;
-    padding-top: 5px;
-    padding-bottom: 10px;
 }
 #menu .pizza-item a {
     font-family: 'Roboto', sans-serif;
@@ -738,6 +753,40 @@ body {
 }
 #menu .Pleft {
     left: 50px;
+}
+#menu .price {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+#menu .price h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #351c12;
+    text-transform: uppercase;
+    width: 50px;
+    height: 50px;
+    background: gold;
+    line-height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#menu .price .pizza-rating p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #777;
+    padding-top: 3px;
+    margin-bottom: 0;
+}
+#menu .price .pizza-rating i {
+	padding: 6px 3px;
+	color: rgb(255, 157, 0);
 }
 /* *===========Menu End===========* */
 /* *===========counterup Start===========* */
@@ -914,10 +963,10 @@ body {
     background-position: center;
 }
 #gallery .overlay {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 80px;
-    background-color: rgba(0, 0, 0, 0.550);
+	width: 100%;
+	height: 100%;
+	padding-bottom: 80px;
+	background: linear-gradient(0deg, rgba(113, 55, 0, 0.8) 0%, rgba(53,28,18,1) 100%);
 }
 #gallery .vincent_bottom_corners {
 	background-image: linear-gradient(rgb(18, 22, 24), rgb(18, 22, 24)), linear-gradient(-45deg, transparent 75%, #ffffff 75%), linear-gradient(45deg, transparent 75%, #ffffff 75%);
