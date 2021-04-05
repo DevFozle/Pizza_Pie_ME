@@ -264,6 +264,9 @@
     #footer .copyright .social-icon i {
         padding: 0 3px;
     }
+    .breadcumb {
+        margin-top: 53px;
+    }
 }
 @media(min-width:420px) and (max-width:575px){
     #navber {
@@ -538,6 +541,9 @@
     }
     #menu .pizza-item {
         height: 380px;
+    }
+    .breadcumb {
+        margin-top: 53px;
     }
 }
 @media(min-width:576px) and (max-width:767px){
@@ -844,6 +850,9 @@
         padding: 10px 20px;
         background: rgb(255, 157, 0);
     }
+    .breadcumb {
+        margin-top: 53px;
+    }
 }
 @media(min-width:768px) and (max-width:991px){
     #navber {
@@ -1110,6 +1119,9 @@
         font-size: 15px;
         padding: 10px 20px;
         background: rgb(255, 157, 0);
+    }
+    .breadcumb {
+        margin-top: 53px;
     }
 }
 @media(min-width:992px) and (max-width:1199px){
